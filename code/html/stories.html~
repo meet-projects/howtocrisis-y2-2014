@@ -1,0 +1,29 @@
+<html> 
+<head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+	<body style >
+<br>
+
+	success story <br>
+<br>
+<p id = "story"> 
+My name is Moni Yendel, I was stuck in an elevator,<br> and suddenly I remembered that I once saw a<br> guide on how to act in these situations..<br> So I just followed the steps they gave me,<br> and well as you can see, i'm still alive!!!!
+</p>
+<br>
+<form>
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female<br>
+please write your story
+<br>
+<div>
+<form method="post" action="submit.html">
+<textarea name="comments" cols="40" rows="20">
+</textarea><br>
+<input type="submit" value="Submit" />
+<img id="" ="pic" src="Baby_CPR.jpg" alt="this is one of the people how listen  to our advice">
+</form>
+</div>
+</body>
+</html>
