@@ -1,0 +1,58 @@
+<html>
+	<style>
+	#pic {	position:absolute;
+		left:790px;
+		top:220px;
+		}
+	li{
+	font-size:20px;font-family:"Comic Sans MS", cursive, sans-seri;	
+	}
+	h1{
+	font-size:45px;
+	}
+	</style>
+		
+
+	<body style="background: lightblue">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1 style = "font-family : Arial">
+	Looking for help ? 
+	</h1>
+	<br>
+	<ul>
+		<li>   <a href = "http://www.nimh.nih.gov/health/publications/post-traumatic-stress-disorder-ptsd/index.shtml#pub7">National Institute of Mental Health Website  </a> </li>
+		<br>
+		
+		<li> <a href = "http://duniabroude.co.il/"> Dunia Broude website </a>  </li>
+		<br>
+
+		<li> <a href = "http://www.leonidbroude.co.il/"> Dr. Leonid Broude website </a> </li>
+		<br>
+
+		<li> <a href ="http://www.btl.gov.il/English%20Homepage/Benefits/Vocational%20Rehabilitation/hostileaction/Pages/Supportgroups.aspx"> National Insurance Institute of Israel Website  </a> </li>
+		<br>
+
+		<li> <a href="http://www.patient.co.uk/selfhelp"> Trusted Medical Information and Support </a> </li>
+		<br>
+
+		<li> <a href="http://www.traumasurvivorsnetwork.org/pages/peer-support-groups"> Trauma Survivors Network </a> </li>
+		<br>
+
+		<li> <a href="http://www.giftfromwithin.org/html/groups.html"> PTSD Resources for Survivors and Caregivers Website </a></li>
+		<br>
+
+		<li> <a href="http://www.google.co.il/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&sqi=2&ved=0CCwQFjAC&url=http%3A%2F%2Fwww.trauma-pages.com%2Fsupport.php&ei=3argU_WPLavc4QT7uoCADQ&usg=AFQjCNGD0h62dVacBZ0VDf2WxttjJ18IGg&bvm=bv.72197243,d.bG"> Trauma Information Pages </a> </li>
+<br>
+
+		<li> <a href="http://psychcentral.com/resources/Post-traumatic_Stress/Support_Groups/"> Psych Central </a> </li>
+		<br>
+
+	</ul>
+
+<img src= "../../images/Trauma-Picture.jpg" alt= "picture of a flower" width="300" height="300" id="pic">
+ 	</body>
+</html>
