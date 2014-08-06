@@ -53,6 +53,6 @@
 
 	</ul>
 
-<img src= "../../images/Trauma-Picture.jpg" alt= "picture of a flower" width="300" height="300" id="pic">
+<img src= "../../images/Trauma-Picture.jpg" alt= "picture of a flower" width="300" height="300" id="pic" border "100">
  	</body>
 </html>
