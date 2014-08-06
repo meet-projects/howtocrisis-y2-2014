@@ -1,5 +1,55 @@
 <html>
 	<style>
+
+
+	
+	/* The unordered list */
+	#mylist {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	/* The div holding the unordered list + items/links */
+	#nav {
+		overflow: hidden;
+		border: 2px solid black;
+		border-width: 6px;
+		padding: 0 5 20 0;
+		background-color:rgb(0,104,139)
+	}
+
+	/* The "How-To Crisis" logo homepage link" */
+	#logo {
+		font-size: 35px;
+	}
+
+	/* List items holdong the links */
+	.myitems {
+		float: left;
+		font-family: "Times New Roman", "sans-serif";
+	}
+
+	/* The actual links */
+	.mylinks {
+		display: block;
+		width: 240;
+		text-decoration: none;
+		color: black;
+		/**
+		background/borders/box-shadow.
+		**/
+	}
+
+	/* The thing that turns the link things grey */
+	.mylinks:hover {
+		color:rgb(192,192,192)
+		
+	}
+	
+	/* All links beside the logo/homepage one*/
+	.center {
+		font-size: 32px;
+	}
 	#pic {	position:absolute;
 		left:790px;
 		top:220px;
@@ -14,16 +64,42 @@
 		
 
 	<body style="background: lightblue">
+	
 	<br>
-	<br>
-	<br>
-	<br>
+	<div id = "nav">
+		<ul id="mylist">
+			<li id="logo" class="myitems"> 
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">How-To Crisis</a>
+			</li>
+
+			<li class="center myitems">
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">Guides</a>
+			</li>
+
+			<li class="center myitems"> 
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">FAQ's</a>
+			</li>
+
+			<li class="center myitems">
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">Success Stories</a>
+			</li>
+
+			<li class="center myitems"> 
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">External Links</a>
+			</li>
+		</ul>
+		</div>
+
+
 	<br>
 	<h1 style = "font-family : Arial">
 	Looking for help ? 
 	</h1>
 	<br>
 	<ul>
+
+		
+
 		<li>   <a href = "http://www.nimh.nih.gov/health/publications/post-traumatic-stress-disorder-ptsd/index.shtml#pub7">National Institute of Mental Health Website  </a> </li>
 		<br>
 		
@@ -53,6 +129,6 @@
 
 	</ul>
 
-<img src= "../../images/Trauma-Picture.jpg" alt= "picture of a flower" width="300" height="300" id="pic" border "100">
+<img src= "../../images/Trauma-Picture.jpg" alt= "picture of a flower" width="300" height="300" id="pic" d>
  	</body>
 </html>
