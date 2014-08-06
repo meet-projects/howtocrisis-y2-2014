@@ -3,8 +3,8 @@
 }
   img {
     position: absolute;
-    left: 688px;
-    top: 66px;
+    left: 693px;
+    top: 100px;
     z-index: -1;
 }
 #story {
@@ -16,4 +16,48 @@ margin-top: 250px;
 margin-left: 280px;
 font-size:200%;
 }
+ul {
+		list-style-type: none;
+		text-align: center;
+	}
 
+	#nav {
+		overflow: hidden;
+		border: 2px solid black;
+		border-width: 6px;
+		padding: 0 5 20 0;
+		background-color:rgb(0,104,139)
+	}
+
+	#logo {
+		font-size: 35px;
+	}
+
+	li {
+		float: left;
+		font-family: "Times New Roman", "sans-serif";
+	}
+
+	a {
+		display: block;
+		width: 240px;
+		text-decoration: none;
+		color: black;
+		/**
+		background/borders/box-shadow.
+		**/
+	}
+
+	a:hover {
+		color:rgb(192,192,192)
+		
+	}
+
+	.center {
+		font-size: 32px;
+	}
+#succses {
+color: black;
+margin-left: 280px;
+font-size:155%;
+}
