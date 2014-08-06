@@ -1,31 +1,48 @@
 <html>
 	<style>
 	
-	/*
 	ul {
 		list-style-type: none;
-		margin: 0;
-		padding: 0;
+		text-align: center;
+	}
+
+	#nav {
+		overflow: hidden;
+		border: 2px solid black;
+		border-width: 6px;
+		padding: 0 5 20 0;
+		background-color:rgb(0,104,139)
+	}
+
+	#logo {
+		font-size: 35px;
 	}
 
 	li {
 		float: left;
-		font-family: "Times New Roman";
+		font-family: "Times New Roman", "sans-serif";
 	}
 
 	a {
 		display: block;
-		width: 250;
-		height: 80;
-		font-size: 25px;
-		padding: 1;
+		width: 245;
+		text-decoration: none;
+		color: black;
+		/**
+		background/borders/box-shadow.
+		**/
+	}
+
+	a:hover {
+		color:rgb(192,192,192)
+		
 	}
 
 	.center {
-		text-align: center;
+		font-size: 32px;
 	}
 
-	*/
+	
 	</style>
 	
 	<body>
@@ -36,14 +53,14 @@
 		</head>
 
 		
-
-		<!-- <ul>
-			<li> 
+		<div id = "nav">
+		<ul>
+			<li id="logo"> 
 			<a href="http://www.w3schools.com/css/css_navbar.asp">How-To Crisis</a>
 			</li>
 
 			<li class="center">
-			<a href="http://www.w3schools.com/css/css_navbar.asp">Guides</a>
+			<a href="http://www.w3schools.com/css/css_navbar.asp">    Guides</a>
 			</li>
 
 			<li class="center"> 
@@ -51,17 +68,14 @@
 			</li>
 
 			<li class="center">
-			<a href="http://www.w3schools.com/css/css_navbar.asp">Succes Stories</a>
+			<a href="http://www.w3schools.com/css/css_navbar.asp">Success Stories</a>
 			</li>
 
 			<li class="center"> 
 			<a href="http://www.w3schools.com/css/css_navbar.asp">External Links</a>
 			</li>
-
 		</ul>
+		</div>
 
-		<img src="http://upload.wikimedia.org/wikipedia/commons/f/f5/F1_light_blue_flag.svg">
-
--->
 	</body>
 </html>

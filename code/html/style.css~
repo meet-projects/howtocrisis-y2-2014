@@ -1,0 +1,19 @@
+ body {
+    background-color: lightblue;
+}
+  img {
+    position: absolute;
+    left: 688px;
+    top: 66px;
+    z-index: -1;
+}
+#story {
+color: red;
+}
+#thanks{
+color: black;
+margin-top: 250px;
+margin-left: 280px;
+font-size:200%;
+}
+
