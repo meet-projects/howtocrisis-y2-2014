@@ -1,11 +1,13 @@
 <html>
 	<style>
 	
-	ul {
+	/* The unordered list */
+	#mylist {
 		list-style-type: none;
 		text-align: center;
 	}
 
+	/* The div holding the unordered list + items/links */
 	#nav {
 		overflow: hidden;
 		border: 2px solid black;
@@ -14,16 +16,19 @@
 		background-color:rgb(0,104,139)
 	}
 
+	/* The "How-To Crisis" logo homepage link" */
 	#logo {
 		font-size: 35px;
 	}
 
-	li {
+	/* List items holdong the links */
+	.myitems {
 		float: left;
 		font-family: "Times New Roman", "sans-serif";
 	}
 
-	a {
+	/* The actual links */
+	.mylinks {
 		display: block;
 		width: 245;
 		text-decoration: none;
@@ -33,11 +38,13 @@
 		**/
 	}
 
-	a:hover {
+	/* The thing that turns the link things grey */
+	.mylinks:hover {
 		color:rgb(192,192,192)
 		
 	}
-
+	
+	/* All links beside the logo/homepage one*/
 	.center {
 		font-size: 32px;
 	}
@@ -54,25 +61,25 @@
 
 		
 		<div id = "nav">
-		<ul>
-			<li id="logo"> 
-			<a href="http://www.w3schools.com/css/css_navbar.asp">How-To Crisis</a>
+		<ul id="mylist">
+			<li id="logo" class="myitems"> 
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">How-To Crisis</a>
 			</li>
 
-			<li class="center">
-			<a href="http://www.w3schools.com/css/css_navbar.asp">    Guides</a>
+			<li class="center myitems">
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">Guides</a>
 			</li>
 
-			<li class="center"> 
-			<a href="http://www.w3schools.com/css/css_navbar.asp">FAQ's</a>
+			<li class="center myitems"> 
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">FAQ's</a>
 			</li>
 
-			<li class="center">
-			<a href="http://www.w3schools.com/css/css_navbar.asp">Success Stories</a>
+			<li class="center myitems">
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">Success Stories</a>
 			</li>
 
-			<li class="center"> 
-			<a href="http://www.w3schools.com/css/css_navbar.asp">External Links</a>
+			<li class="center myitems"> 
+			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">External Links</a>
 			</li>
 		</ul>
 		</div>
