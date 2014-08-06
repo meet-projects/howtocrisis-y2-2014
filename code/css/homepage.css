@@ -1,26 +1,10 @@
- body {
-    background-color: lightblue;
-}
-  img {
-    position: absolute;
-    left: 693px;
-    top: 100px;
-    z-index: -1;
-}
-#story {
-color: red;
-}
-#thanks{
-color: black;
-margin-top: 250px;
-margin-left: 280px;
-font-size:200%;
-}
-ul {
+	/* The unordered list */
+	#mylist {
 		list-style-type: none;
 		text-align: center;
 	}
 
+	/* The div holding the unordered list + items/links */
 	#nav {
 		overflow: hidden;
 		border: 2px solid black;
@@ -29,18 +13,21 @@ ul {
 		background-color:rgb(0,104,139)
 	}
 
+	/* The "How-To Crisis" logo homepage link" */
 	#logo {
 		font-size: 35px;
 	}
 
-	li {
+	/* List items holdong the links */
+	.myitems {
 		float: left;
 		font-family: "Times New Roman", "sans-serif";
 	}
 
-	a {
+	/* The actual links */
+	.mylinks {
 		display: block;
-		width: 240px;
+		width: 240;
 		text-decoration: none;
 		color: black;
 		/**
@@ -48,16 +35,21 @@ ul {
 		**/
 	}
 
-	a:hover {
+	/* The thing that turns the link things grey */
+	.mylinks:hover {
 		color:rgb(192,192,192)
 		
 	}
-
+	
+	/* All links beside the logo/homepage one*/
 	.center {
 		font-size: 32px;
 	}
-#succses {
-color: black;
-margin-left: 280px;
-font-size:155%;
-}
+
+	#title {
+		font: 40px sans-serif;
+	}
+	
+	#para {
+		font: 20px sans-serif;
+	}

@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = 			"../css/FAQstyle.css"/>
+		<title>FAQ's</title>
+	</head>
+
+
+	<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+		<h1 id = "H">FAQ's</h1>
+		<p class = "Q">Q1. Do these tips actually work ?</p>
+		<p class = "A">A1. Yess , except the ones that we made as a joke!!</p>
+		<p class = "Q">Q2. Are you real people ?? </p>
+		<p class = "A">A2. We believe so.</p>
+		<p class = "Q">Q3. What would happen if a tsunami happened and i don't have <br>        my swimsuit on ?</p>
+		<p class = "A">A3. Your clothes will get wet.
+
+		<img id = "quest" src = "../../images/question2.jpg" height = "425" width = "380" />
+
+	</body> 
+
+
+</html>
