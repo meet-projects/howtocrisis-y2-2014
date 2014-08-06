@@ -1,0 +1,55 @@
+	/* The unordered list */
+	#mylist {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	/* The div holding the unordered list + items/links */
+	#nav {
+		overflow: hidden;
+		border: 2px solid black;
+		border-width: 6px;
+		padding: 0 5 20 0;
+		background-color:rgb(0,104,139)
+	}
+
+	/* The "How-To Crisis" logo homepage link" */
+	#logo {
+		font-size: 35px;
+	}
+
+	/* List items holdong the links */
+	.myitems {
+		float: left;
+		font-family: "Times New Roman", "sans-serif";
+	}
+
+	/* The actual links */
+	.mylinks {
+		display: block;
+		width: 240;
+		text-decoration: none;
+		color: black;
+		/**
+		background/borders/box-shadow.
+		**/
+	}
+
+	/* The thing that turns the link things grey */
+	.mylinks:hover {
+		color:rgb(192,192,192)
+		
+	}
+	
+	/* All links beside the logo/homepage one*/
+	.center {
+		font-size: 32px;
+	}
+
+	#title {
+		font: 40px sans-serif;
+	}
+	
+	#para {
+		font: 20px sans-serif;
+	}
