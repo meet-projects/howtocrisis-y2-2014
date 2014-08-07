@@ -1,3 +1,6 @@
+	body { 
+	background: lightblue; }	
+
 	/* The unordered list */
 	#mylist {
 		list-style-type: none;
