@@ -1,25 +1,51 @@
 <html>
 	<head>
-		<link rel = "stylesheet" type = "text/css" href = 			"../css/FAQstyle.css"/>
+		<link rel = "stylesheet" type = "text/css" href ="../css/FAQstyle.css"/>
 		<title>FAQ's</title>
 	</head>
 
 
 	<body>
 	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	
+	<div id = "nav">
+		<ul id="mylist">
+			<li id="logo" class="myitems"> 
+			<a href="file:///home/student/Desktop/howtocrisis-y2-2014/code/html/homepage.html" class="mylinks">How-To Crisis</a>
+			</li>
+
+			<li class="center myitems">
+			<a href="file:///home/student/Desktop/howtocrisis-y2-2014/code/html/TheGuieds/Theguieds.html" class="mylinks">Guides</a>
+			</li>
+
+			<li class="center myitems"> 
+			<a href="file:///home/student/Desktop/howtocrisis-y2-2014/code/html/FAQspage.html" class="mylinks">FAQ's</a>
+			</li>
+
+			<li class="center myitems">
+			<a href="file:///home/meet/Desktop/howtocrisis-y2-2014/code/html/stories.html" class="mylinks">Success Stories</a>
+			</li>
+
+			<li class="center myitems"> 
+			<a href="file:///home/meet/Desktop/howtocrisis-y2-2014/code/html/links.html" class="mylinks">External Links</a>
+			</li>
+		</ul>
+		</div>
+
+
 		<h1 id = "H">FAQ's</h1>
 		<p class = "Q">Q1. Do these tips actually work ?</p>
-		<p class = "A">A1. Yess , except the ones that we made as a joke!!</p>
-		<p class = "Q">Q2. Are you real people ?? </p>
-		<p class = "A">A2. We believe so.</p>
-		<p class = "Q">Q3. What would happen if a tsunami happened and i don't have <br>        my swimsuit on ?</p>
-		<p class = "A">A3. Your clothes will get wet.
+		<p class = "A">A1. Yes, maybe, we don't know</p>
+		<p class = "Q">Q2. Are you real people?</p>
+		<p class = "A">A2. Nope. Highly intellegent fish people</p>
+		<p class = "Q">Q3. Why are bananas yellow?</p>
+		<p class = "A">A3. Life is a mystery</p>
+		<p class = "Q">Q4. My son has been missing for a week where is he?</p>
+		<p class = "A">A4. Thats none of our business sir</p>
+		<p class = "Q">Q5. Where did you receive your survival training?</p>
+		<p class = "A">A5. In the Academy Of non of your F**king business</p>
+		<p class = "Q">Q6. Where did you take my son?!</p>
+		<p class = "A">A6. Sir we're going to have to ask you to leave</p>
+
 
 		<img id = "quest" src = "../../images/question2.jpg" height = "425" width = "380" />
 
@@ -27,3 +53,5 @@
 
 
 </html>
+
+

@@ -18,19 +18,19 @@
 			</li>
 
 			<li class="center myitems">
-			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">Guides</a>
+			<a href="file:///home/student/Desktop/howtocrisis-y2-2014/code/html/TheGuieds/Theguieds.html" class="mylinks">Guides</a>
 			</li>
 
 			<li class="center myitems"> 
-			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">FAQ's</a>
+			<a href="file:///home/student/Desktop/howtocrisis-y2-2014/code/html/FAQspage.html" class="mylinks">FAQ's</a>
 			</li>
 
 			<li class="center myitems">
-			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">Success Stories</a>
+			<a href="file:///home/student/Desktop/howtocrisis-y2-2014/code/html/stories.html" class="mylinks">Success Stories</a>
 			</li>
 
 			<li class="center myitems"> 
-			<a href="http://www.w3schools.com/css/css_navbar.asp" class="mylinks">External Links</a>
+			<a href="file:///home/student/Desktop/howtocrisis-y2-2014/code/html/links.html" class="mylinks">External Links</a>
 			</li>
 		</ul>
 		</div>
