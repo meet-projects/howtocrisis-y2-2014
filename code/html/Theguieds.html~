@@ -6,24 +6,8 @@
 <Br>
 <Br>
 <Br>
-<table border="1" style="width:400px">
-<tr>
-  <td><a href="Fire.html">In case of a fire</a>
+<ul>
 
-</td>
-</tr>
-<tr>
-  <td><a href="Elevator.html">Stuck in an elevator</a></td>
-</tr>
-<tr>
-  <td><a href="Tsunami.html">In case of a Tsunami</a></td>
-</tr>
-<tr>
-  <td><a href="hurricane.html">In case of a hurricane</a></td>
-</tr>
-<tr>
-  <td><a href="Elevator.html">Being chased by a dog</a></td>
-</tr>
 
 <div id = "nav">
 <ul>
@@ -32,7 +16,7 @@
 </li>
 
 <li class="center">
-<a href="Theguieds.html">    Guides</a>
+<a href="Theguieds.html">Guides</a>
 </li>
 
 <li class="center"> 
@@ -46,6 +30,23 @@
 </li>
 </ul>
 </div>
+
+<Br>
+<ul >
+<li><h3><a href="Fire.html">In case of a fire</h3></a></li>
+<Br>
+<Br>
+<li><h3><a href="Elevator.html">Stuck in an elevator</h3></a></li>
+<Br>
+<Br>
+<li><h3><a href="Tsunami.html">In case of a Tsunami</h3></a></li>
+<Br>
+<Br>
+<li><h3><a href="hurricane.html">In case of a hurricane</h3></a></li>
+<Br>
+<Br>
+<li><h3><a href="dog.html">Being chased by a dog</h3></a></li>
+</ul>
 
 
 
